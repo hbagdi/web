@@ -1,2 +1,2 @@
 Personal website.
- [hardikbagdi.github.io](https://hardikbagdi.github.io/)
+ [hbagdi.github.io](https://hbagdi.github.io/)
