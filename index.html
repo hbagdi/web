@@ -40,9 +40,6 @@
       <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
       <!-- Plugins CSS -->
       <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-      <!-- github acitivity css -->
-      <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css">
-      <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octicons.min.css">
       <!-- Theme CSS -->
       <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -59,9 +56,9 @@
                   <img class="profile-image img-responsive pull-left" src="assets/images/bagdi.png" alt="Hardik Bagdi" />
                   <div class="profile-content pull-left">
                         <h1 class="name">Hardik Bagdi</h1>
-                        <h2 class="desc">Software Developer</h2>
+                        <h2 class="desc">Software Engineer</h2>
                         <ul class="social list-inline">
-                              <li><a href="https://www.linkedin.com/in/hbagdi"><i class="fa fa-linkedin"></i></a></li>
+                              <!--<li><a href="https://www.linkedin.com/in/hbagdi"><i class="fa fa-linkedin"></i></a></li>-->
                               <li><a href="http://github.com/hbagdi"><i class="fa fa-github-alt"></i></a></li>
                         </ul>
                   </div>
@@ -83,41 +80,40 @@
 
                               </div>
                         </section>
-                        <h2> </h2>
-                        <!--   <section class="about section">
-                        <!--   <div class="section-inner">
-                        < <h2 class="heading">About Me</h2>
-                        <div class="content">
-                        <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>    
-                        
-                        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        
-                        </div>
-                        </div>     
-                        </section>//section-->
-
                         <section class="experience section">
                               <div class="section-inner">
-                                    <h2 class="heading">Work Experience</h2>
+                                    <h2 class="heading">Work experience</h2>
                                     <div class="content">
                                           <div class="item">
-                                                <h3 class="title">Graduate Research Assistant- <span class="place">Binghamton University(SUNY)</span>                                                      <span class="year">(Jan 2016 - Present)</span></h3>
+                                                <h3 class="title">Graduate Research Assistant<br><span class="place">Binghamton University(SUNY)</span>
+                                                      <span class="year">(Jan 2016 - Present)</span></h3>
                                                 <ul>
-                                                      <li>Prototyping and publishing in OS virtualization- live migration of
-                                                            Virtual Machines, multi-hypervisor VMs and scheduling in hypervisors;
-                                                            using Qemu-KVM.</li>
+                                                      <li>Working with Prof <a href="https://cs.binghamton.edu/~kartik">Kartik Gopalan</a>                                                            in the <a href="https://osnet.cs.binghamton.edu/">OSNET lab</a>
+                                                            <li>Working on NSF-funded research on migration, multi-hypervisor
+                                                                  support and CPU scheduling for VMs</li>
+                                                            <li> by tearing apart code in the KVM/QEMU virtualization platform;
+                                                                  see <a href="#papers">research papers</a> below</li>
                                                 </ul>
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Software Engineering Intern(nPulse)- <span class="place">FireEye Inc</span>                                                      <span class="year">(June 2016 - Aug 2016)</span></h3>
+                                                <h3 class="title">Software Engineering Intern(nPulse)<br>
+                                                      <span class="place">FireEye Inc</span>
+                                                      <span class="year">(June 2016 - Aug 2016)</span></h3>
                                                 <ul>
-                                                      <li>Did a a lot of stuff. Some really cool!
+                                                      <li>Virtualized two appliances introducing a new form factor and serving
+                                                            as a prototype for cloud solutions</li>
+                                                      <li>Automated builds and deployments of the VMs to aid in automated CI
+                                                            testing</li>
+                                                      <li>Documented all work, and set up compute and network infrastructure</li>
+
                                                 </ul>
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Web Developer &amp Technology Specialist- <span class="place">Fleishman Career Center- Binghamton University(SUNY)</span>                                                      <span class="year">(Sept 2015 - May 2016)</span></h3>
+                                                <h3 class="title">Web Developer and Technology Specialist<br>
+                                                      <span class="place">Fleishman Career Center- Binghamton University(SUNY)</span>
+                                                      <span class="year">(Sept 2015 - May 2016)</span></h3>
                                                 <ul>
                                                       <li>Develop and maintain Fleishman Center’s website using HTML, JavaScript,
                                                             CSS and OmniUpdate in order to ease access for various constituents
@@ -129,7 +125,8 @@
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Co-Founder <span align="center" class="place">Park: On the Go</span>
+                                                <h3 class="title">Co-Founder<br>
+                                                      <span align="center" class="place">Park: On the Go</span>
                                                       <span class="year">(June 2014 - July 2015)</span>
                                                 </h3>
                                                 <ul>
@@ -143,13 +140,14 @@
                                                       <li>Worked with faculty, city municipal corporation and local software
                                                             industry to channelize issues like recording, authenticating,
                                                             analyzing and organizing the parking data of Vadodara.</li>
-                                                      <li>Developed web apps & services required for the back-end support, analytics
-                                                            and management.</li>
+                                                      <li>Developed web apps and services required for the back-end support,
+                                                            analytics and management.</li>
                                                 </ul>
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Web Developer <span class="place">Chatur Chidiyaa</span> <span class="year">(June 2015 - July 2015)</span></h3>
+                                                <h3 class="title">Web Developer<br>
+                                                      <span class="place">Chatur Chidiyaa</span> <span class="year">(June 2015 - July 2015)</span></h3>
                                                 <ul>
                                                       <li>Designed an e-commerce website using Wordpress and WooCommerce to create
                                                             an online presence and expand reach</li>
@@ -161,34 +159,36 @@
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Web Developer <span class="place">ChemiSense Inc</span> <span class="year">(June 2014 - July 2014))</span></h3>
+                                                <h3 class="title">Web Developer<br><span class="place">ChemiSense Inc</span> <span class="year">(June 2014 - July 2014))</span></h3>
                                                 <ul>
                                                       <li>Conceptualized the design of company’s first web site to create an
-                                                            online presence & portray its goals and philosophy</li>
+                                                            online presence and portray its goals and philosophy</li>
                                                       <li>Developed the website <a href="http://chemisense.co/" target="_blank">chemisense.co</a>                                                            using Wordpress, optimized for mobile, social media sharing to
                                                             further its reach</li>
                                                 </ul>
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Web &amp App Developer <span class="place">FootPrints- M.S. University</span>                                                      <span class="year">(June 2015 - July 2015)</span></h3>
+                                                <h3 class="title">Web and App Developer<br><span class="place">FootPrints- M.S. University</span>
+                                                      <span class="year">(June 2015 - July 2015)</span></h3>
                                                 <ul>
                                                       <li>Designed symposium’s first mobile compatible website msufp.in which
                                                             increased mobile traffic by more than 50%</li>
-                                                      <li>Led a team to research, design and develop iOS & Android app to make
-                                                            guidelines for over 40 events available offline</li>
+                                                      <li>Led a team to research, design and develop iOS and Android (native)
+                                                            apps to make guidelines for over 40 events available offline</li>
                                                 </ul>
                                           </div>
                                           <!--//item-->
                                           <div class="item">
-                                                <h3 class="title">Core Committee Member <span class="place">FootPrints- M.S. University</span>                                                      <span class="year">(Sept 2011 - April 2014)</span></h3>
+                                                <h3 class="title">Core Committee Member<br><span class="place">FootPrints- M.S. University</span>
+                                                      <span class="year">(Sept 2011 - April 2014)</span></h3>
                                                 <ul>
                                                       <li>Introduced tech exhibitions and street shows as new segments which
                                                             increased footfall by 15%, totaling 15,000</li>
                                                       <li>Organized month-long conference tour for int’l speakers by co-ordinating
                                                             with other institutes to reduce expense</li>
                                                       <li>Increased sponsorship funds by 25%(YoY) by increasing visibility/outreach
-                                                            in industry & evaluating ROI for each sponsor</li>
+                                                            in industry and evaluating ROI for each sponsor</li>
                                                 </ul>
                                           </div>
                                           <!--//item-->
@@ -197,73 +197,27 @@
                               </div>
                               <!--//section-inner-->
                         </section>
-                        <!--//section-->
-                        <section class="latest section">
-                              <div class="section-inner">
-                                    <h2 class="heading">Latest Projects - Not Updated since Dec 2015</h2>
-                                    <div class="content">
-                                          <div class="item row">
-                                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                                      <img class="img-responsive project-image" src="assets/images/projects/pilferit.jpg" alt="project name" />
-                                                </div>
-                                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                                      <h3 class="title">Pilfer</h3>
-                                                      <p>
-                                                            <ul>
-                                                                  <li>Chrome Extension -Two Click Image Sync to Google Photos
-                                                                        App</li>
-                                                                  <li>
-                                                                        < a href="http://getPilfer.com/" target="_blank">getPilfer.com</a>
-                                                                  </li>
-                                                            </ul>
-                                                      </p>
-                                                </div>
-                                                <!--//desc-->
-                                          </div>
-                                          <div class="item row">
-                                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                                      <img class="img-responsive project-image" src="assets/images/projects/mips.jpg" alt="project name" />
-                                                </div>
-                                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                                      <h3 class="title">MIPS Simulator</h3>
-                                                      <p>
-                                                            <ul>
-                                                                  <li>Pipelined CPU simulator developed in Java</li>
-                                                                  <li>Performs out of order execution using multiple functional
-                                                                        units, Issue Queue, Register renaming, reorder buffer
-                                                                  </li>
-                                                                  <li>Can issue and complete multiple instructions i.e. startup
-                                                                        and completion not serialized</li>
-                                                                  <li>Performs at least 3x times faster than a in-order version
-                                                                        of the processor</li>
-                                                            </ul>
-                                                      </p>
-                                                </div>
-                                                <!--//desc-->
-                                          </div>
-                                          <!--//item-->
-                                          <div class="item row">
-                                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://Chaturchidiyaa.com" target="_blank">
-                                 <img class="img-responsive project-image" src="assets/images/projects/cc.jpg" alt="project name" />
-                                 </a>
-                                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                                      <h3 class="title"><a href="http://Chaturchidiyaa.com" target="_blank">Chaturchidiyaa.com</a></h3>
-                                                      <p>An e-commerce website develolped using Wordpress and WooCommerce.</p>
-                                                      <p><a class="more-link" href="http://Chaturchidiyaa.com" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                                </div>
-                                                <!--//desc-->
-                                          </div>
-                                          <!--//item-->
-                                    </div>
-                                    <!--//content-->
-                              </div>
-                              <!--//section-inner-->
-                        </section>
-                        <!--//section-->
                         <section class="projects section">
                               <div class="section-inner">
-                                    <h2 class="heading">Other Projects</h2>
+                                    <h2 class="heading">Some past projects</h2>
                                     <div class="content">
+                                          <div class="item">
+                                                <h3 class="title"><a href="http://getPilfer.com" target="_blank">Pilfer</a></h3>
+                                                <ul>
+                                                      <li>Chrome Extension -Two Click Image Sync to Google Photos App</li>
+                                                      <li>Website: <a href="http://getPilfer.com" target="_blank">getPilfer.com</a></li>
+                                                </ul>
+                                          </div>
+                                          <div class="item">
+                                                <h3 class="title"><a href="http://Chaturchidiyaa.com" target="_blank">ChaturChidiyaa.com</a></h3>
+                                                <ul>
+                                                      <li>Developed website using Wordpress, HTML, PHP and JS</li>
+                                                      <li>Performed mobile optimizations which lead to increase in traffic by
+                                                            more than 50%</li>
+                                                      <li>Integrated forms and registration portal of the event into the website</li>
+                                                      <li>Website: <a href="http://Chaturchidiyaa.com" target="_blank"> ChaturChidiyaa.com</a></li>
+                                                </ul>
+                                          </div>
                                           <div class="item">
                                                 <h3 class="title">Website- FootPrints X4</h3>
                                                 <ul>
@@ -326,14 +280,31 @@
                               <!--//section-inner-->
                         </section>
                         <!--//section-->
-                        <section class="github section">
+                        <section class="projects section" id="papers">
                               <div class="section-inner">
-                                    <h2 class="heading">My GitHub</h2>
-                                    <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-                                    <div id="ghfeed" class="ghfeed"></div>
-                                    <!--//ghfeed-->
+                                    <h2 class="heading">Published research</h2>
+                                    <div class="content">
+                                          <div class="item">
+                                                <h3 class="title"><a href="http://getPilfer.com" target="_blank">Pilfer</a></h3>
+                                                <ul>
+                                                      <li>Chrome Extension -Two Click Image Sync to Google Photos App</li>
+                                                      <li>Website: <a href="http://getPilfer.com" target="_blank">getPilfer.com</a></li>
+                                                </ul>
+                                          </div>
+                                          <div class="item">
+                                                <h3 class="title"><a href="http://Chaturchidiyaa.com" target="_blank">ChaturChidiyaa.com</a></h3>
+                                                <ul>
+                                                      <li>Developed website using Wordpress, HTML, PHP and JS</li>
+                                                      <li>Performed mobile optimizations which lead to increase in traffic by
+                                                            more than 50%</li>
+                                                      <li>Integrated forms and registration portal of the event into the website</li>
+                                                      <li>Website: <a href="http://Chaturchidiyaa.com" target="_blank"> ChaturChidiyaa.com</a></li>
+                                                </ul>
+                                          </div>
+                                    </div>
+                                    <!--//content-->
                               </div>
-                              <!--//secton-inner-->
+                              <!--//section-inner-->
                         </section>
                         <!--//section-->
                   </div>
@@ -344,10 +315,14 @@
                                     <h2 class="heading sr-only">Basic Information</h2>
                                     <div class="content">
                                           <ul class="list-unstyled">
-                                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>New
-                                                      York USA</li>
-                                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>hbagdi1
-                                                      at binghamton dot edu</a>
+                                                <li><i class="fa fa-map-marker"></i>
+                                                      <span class="sr-only">Location:</span>New York USA</li>
+                                                <li><i class="fa fa-envelope-o"></i>
+                                                      <span class="sr-only">Email:</span>hbagdi1 at binghamton dot edu</a>
+                                                </li>
+                                                <li><i class="fa fa-key"></i>
+                                                      <span class="sr-only">Email:</span>
+                                                      <a href="https://pgp.mit.edu/pks/lookup?search=0x3DE2627ECC39C089" target="_blank">GPG key</a>
                                                 </li>
                                           </ul>
                                     </div>
@@ -393,14 +368,6 @@
                                                       <!--//level-bar-->
                                                 </div>
                                                 <!--//item-->
-                                                <!--//item-->
-                                                <div class="item">
-                                                      <h3 class="level-title">HTML, CSS &amp; JavaScript</h3>
-                                                      <div class="level-bar">
-                                                            <div class="level-bar-inner" data-level="40%"></div>
-                                                      </div>
-                                                      <!--//level-bar-->
-                                                </div>
                                           </div>
                                     </div>
                                     <!--//content-->
@@ -427,9 +394,6 @@
       <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-      <!-- github activity plugin -->
-      <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
-      <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.1.min.js"></script>
       <!-- custom js -->
       <script type="text/javascript" src="assets/js/main.js"></script>
       <script>
