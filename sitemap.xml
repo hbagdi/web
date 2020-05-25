@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hbagdi.yolo42.com/blog/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbagdi.yolo42.com/blog/ending-procrastination/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbagdi.yolo42.com/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hbagdi.yolo42.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://hbagdi.yolo42.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hbagdi.yolo42.com/</loc>
   </url>
   
   <url>
