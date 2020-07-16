@@ -1,6 +1,6 @@
 <h3>Posts</h3>
 <ul id="posts">
-{{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range .Pages }}
     <li>
         <a href="{{ .Permalink }}">
             {{- .Title -}}
