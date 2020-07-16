@@ -1,0 +1,14 @@
+<h3>Blips</h3>
+<ul id="posts">
+    {{ range .Pages.ByTitle.Reverse }}
+    <li>
+        <div id="{{ .Title }}">
+            <a href="#{{ .Title }}">
+                #{{- .Title -}}
+            </a>
+            <small><time>{{ .Date.Format "Jan 2, 2006" }}</time></small>
+            {{- .Content -}}
+        </div>
+    </li>
+    {{ end }}
+</ul>
