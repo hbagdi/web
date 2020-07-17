@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "projects"
 +++
 
   <h4>RepoCounters</h4>

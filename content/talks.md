@@ -1,5 +1,5 @@
 +++
-title = "Talks"
+title = "talks"
 +++
 
 <h4> Kong for Kuberntes and Ingress: CNCF webinar</h4>

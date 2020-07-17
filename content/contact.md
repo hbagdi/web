@@ -1,5 +1,5 @@
 +++
-title = "Contact"
+title = "contact"
 +++
 
 * [@hbagdi42](https://twitter.com/hbagdi42)
