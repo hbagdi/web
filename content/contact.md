@@ -1,6 +1,6 @@
-+++
-title = "contact"
-+++
+---
+title: "contact"
+---
 
 * [@hbagdi42](https://twitter.com/hbagdi42)
 * [in/hbagdi](https://linkedin.com/in/hbagdi)

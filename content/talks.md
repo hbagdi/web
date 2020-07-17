@@ -1,6 +1,6 @@
-+++
-title = "talks"
-+++
+---
+title: "talks"
+---
 
 <h4> Kong for Kuberntes and Ingress: CNCF webinar</h4>
 <i>January 2020</i><br>

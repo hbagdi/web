@@ -1,6 +1,6 @@
-+++
-title = "projects"
-+++
+---
+title: "projects"
+---
 
   <h4>RepoCounters</h4>
   <i>Track downloads statistics for your releases hosted on Github</i><br>

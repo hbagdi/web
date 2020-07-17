@@ -1,8 +1,8 @@
-+++
-author = "hbagdi"
-title = "Ending procrastination"
-date = "2020-05-24"
-+++
+---
+author: "hbagdi"
+title: "Ending procrastination"
+date: "2020-05-24"
+---
 
 After procrastinating for 10 years,
 I've finally decided to create a personal blog and write my first blog-post. 
