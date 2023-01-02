@@ -1,8 +1,20 @@
 ---
 title: "talks"
 ---
+<h4>Changing engines in flight: Kong 3.x series</h4>
+<i>December 2022</i><br>
+[<a href="https://drive.google.com/file/d/1i2I48MRKpWJOzfQiOCvsPZB-w9vpnvEu/view" target="_blank">Slides</a>]
 
-<h4> Kong for Kuberntes and Ingress: CNCF webinar</h4>
+<h4>Koko: Open-Source Control-Plane for Kong Gateway</h4>
+<i>September 2022</i><br>
+[<a href="https://drive.google.com/file/d/1crwSWpxL0_tocUz8BsUG0IPdlOa8SnBc/view" target="_blank">Slides</a>]
+
+<h4>Gateway API: A New Set of Kubernetes APIs for Advanced Traffic Routing</h4>
+<i>May 2021</i><br>
+[<a href="https://drive.google.com/file/d/153B_B5e0xidFGdFLwtihLm3qr6GPX6wk/view" target="_blank">Slides</a>]
+[<a href="https://www.youtube.com/watch?v=lCRuzWFJBO0" target="_blank">Recording</a>]
+
+<h4>Kong for Kuberntes and Ingress: CNCF webinar</h4>
 <i>January 2020</i><br>
 [<a href="https://drive.google.com/file/d/1ZKAa5p2rtYWS12kalwLVQ1RKBWWDGjUU/view" target="_blank">Slides</a>]
 
